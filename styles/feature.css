@@ -7,6 +7,13 @@
     background-color: rgba(246, 246, 246, 1);
 }
 
+.managed img{
+    margin-left: 0;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
 .automation{
     position: absolute;
     width: 1230px;
