@@ -2,7 +2,25 @@
     position: absolute;
     width: 1230px;
     height: 347.85px;
-    left: 105px;
+    left: 112px;
     top: 1235.11px;
+    background-color: rgba(246, 246, 246, 1);
+}
+
+.automation{
+    position: absolute;
+    width: 1230px;
+    height: 347.85px;
+    left: 112px;
+    top: 1693.52px;
+    background-color: rgba(246, 246, 246, 1);
+}
+
+.design{
+    position: absolute;
+    width: 1230px;
+    height: 347.85px;
+    left: 112px;
+    top: 2151.93px;
     background-color: rgba(246, 246, 246, 1);
 }
