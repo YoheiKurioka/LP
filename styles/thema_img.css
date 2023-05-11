@@ -1,0 +1,14 @@
+.thema_img{
+    margin-top: 0%;
+    background-repeat: no-repeat; 
+    width: 1440px;
+    height: auto;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.thema_img img{
+    width: 1440px;
+    height: auto;
+}
