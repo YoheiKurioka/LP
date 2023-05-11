@@ -1,9 +1,28 @@
 .solve_problem{
     width: 1440px;
     height: auto;
+    position: relative;
 }
 
 .solve_problem p{
     position: absolute;
-    right: 50%;
+    margin-left: 155px;
+    margin-top: 8vh;
+    font-weight: bold;
+    font-size: 77px;
+    color: rgba(55, 70, 204, 1);
+}
+
+.solve_problem h2{
+    position: absolute;
+    margin-left: 265px;
+    font-size: 24px;
+    margin-top: 19vh;
+}
+
+.solve_problem h3{
+    position: absolute;
+    margin-left: 295px;
+    font-size: 24px;
+    margin-top: 26vh;
 }
