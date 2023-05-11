@@ -1,0 +1,9 @@
+.solve_problem{
+    width: 1440px;
+    height: auto;
+}
+
+.solve_problem p{
+    position: absolute;
+    right: 50%;
+}
