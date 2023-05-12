@@ -12,11 +12,14 @@
         <div class="form-group">
             <label for="email">メールアドレス<span class="required">*</span></label>
             <input type="email" id="email" name="email" placeholder="example@example.com" required>
-            <span id="email-error" class="error"></span>
+            <!-- メールアドレスのツールチップ -->
+            <span id="email-tooltip" class="tooltip"></span>
         </div>
         <div class="form-group">
             <label for="message">問い合わせ内容<span class="required">*</span></label>
             <textarea id="message" name="message" placeholder="お問い合わせ内容を入力してください" required></textarea>
+            <!-- 問い合わせ内容のツールチップ -->
+            <span id="message-tooltip" class="tooltip"></span>
         </div>
         <div class="form-group">
             <label>性別<span class="required">*</span></label>
@@ -28,6 +31,8 @@
                 <input type="radio" id="other" name="gender" value="その他">
                 <label for="other">その他</label>
             </div>
+            <!-- 性別のツールチップ -->
+            <span id="gender-tooltip" class="tooltip"></span>
         </div>
         <div class="form-group">
             <label for="prefecture">都道府県<span class="required">*</span></label>
@@ -37,6 +42,8 @@
                 <!-- 省略 -->
                 <option value="沖縄県">沖縄県</option>
             </select>
+            <!-- 都道府県のツールチップ -->
+            <span id="prefecture-tooltip" class="tooltip"></span>
         </div>
         <div class="form-group">
             <button type="submit" id="submit">送信</button>
