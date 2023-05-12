@@ -1,4 +1,4 @@
-.managed{
+.managed {
     position: absolute;
     width: 1230px;
     height: 347.85px;
@@ -11,32 +11,32 @@
     background-position: left center;
 }
 
-.managed h1{
+.managed h1 {
     font-weight: 400;
     font-size: 40px;
     line-height: 48px;
     color: #3746CC;
 }
 
-.managed p{
+.managed p {
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
 }
 
-.p1 p{
+.p1 p {
     position: absolute;
     left: 375px;
     top: 70px;
 }
 
-.p2 p{
+.p2 p {
     position: absolute;
     left: 375px;
     top: 135px;
 }
 
-.automation{
+.automation {
     position: absolute;
     width: 1230px;
     height: 347.85px;
@@ -48,7 +48,7 @@
     background-position: left center;
 }
 
-.automation h1{
+.automation h1 {
     position: absolute;
     left: 372px;
     font-weight: 400;
@@ -57,13 +57,13 @@
     color: #3746CC;
 }
 
-.automation p{
+.automation p {
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
 }
 
-.design{
+.design {
     position: absolute;
     width: 1230px;
     height: 347.85px;
@@ -75,7 +75,7 @@
     background-position: left center;
 }
 
-.design h1{
+.design h1 {
     position: absolute;
     left: 372px;
     font-weight: 400;
@@ -84,7 +84,7 @@
     color: #3746CC;
 }
 
-.design p{
+.design p {
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
