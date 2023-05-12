@@ -23,4 +23,6 @@
 
 .pf_bg{
     margin-top: -400px;
+    position: relative;
+    z-index: -1;
 }

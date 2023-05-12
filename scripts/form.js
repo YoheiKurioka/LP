@@ -84,9 +84,9 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
     // ツールチップの位置を調整
-    genderTooltip.style.top = gender[0].offsetTop + "px";
-    genderTooltip.style.left = gender[0].offsetLeft + gender[0].offsetWidth + 10 + "px";
-    // ツールチップの内容とクラスを設定
+    genderTooltip.style.top = gender[0].offsetTop + -15 + "px";
+    genderTooltip.style.left = gender[2].offsetLeft + gender[2].offsetWidth + 60 + "px";
+    // ツールチップの内容とクラスを設定2
     if (isValid) {
       genderTooltip.textContent = "性別が選択されています";
       genderTooltip.classList.add("valid-tooltip");
