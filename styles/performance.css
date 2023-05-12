@@ -1,0 +1,26 @@
+.performance{
+    width: 1440px;
+    height: 1500px;
+    position: relative;
+    margin-top: 2vh;
+}
+
+.industry_top{
+    margin-top: 130px;
+    margin-left: 550px;
+}
+
+.publications{
+    margin-left: 400px;
+}
+
+.publications p{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3746CC;
+}
+
+.pf_bg{
+    margin-top: -400px;
+}
