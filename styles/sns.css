@@ -6,3 +6,16 @@
     position: absolute;
     z-index: 1;
 }
+
+.facebook{
+    margin-left: 820px;
+    position: absolute;
+    z-index: 1;
+}
+
+.youtube{
+    margin-left: 820px;
+    margin-top: 600px;
+    position: absolute;
+    z-index: 1;
+}
