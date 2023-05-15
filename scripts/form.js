@@ -45,9 +45,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // メールアドレスのバリデーション関数
     function validateEmail() {
       // メールアドレスの正規表現
-      var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+      const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
       // メールアドレスが正しいかどうかチェック
-      var isValid = emailRegex.test(email.value);
+      let isValid = emailRegex.test(email.value);
       // ツールチップの位置を調整
       emailTooltip.style.top = email.offsetTop + "px";
       emailTooltip.style.left = email.offsetLeft + email.offsetWidth + 10 + "px";
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // 問い合わせ内容のバリデーション関数
     function validateMessage() {
       // 問い合わせ内容が空かどうかチェック
-      var isValid = message.value !== "";
+      let isValid = message.value !== "";
       // ツールチップの位置を調整
       messageTooltip.style.top = message.offsetTop + "px";
       messageTooltip.style.left = message.offsetLeft + message.offsetWidth + 10 + "px";
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // 性別のバリデーション関数
     function validateGender() {
       // 性別が選択されているかどうかチェック
-      var isValid = false;
+      let isValid = false;
       for (var i = 0; i < gender.length; i++) {
         if (gender[i].checked) {
           isValid = true;
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // 都道府県のバリデーション関数
     function validatePrefecture() {
       // 都道府県が選択されているかどうかチェック
-      var isValid = prefecture.value !== "";
+      let isValid = prefecture.value !== "";
       // ツールチップの位置を調整
       prefectureTooltip.style.top = prefecture.offsetTop + "px";
       prefectureTooltip.style.left = prefecture.offsetLeft + prefecture.offsetWidth + 10 + "px";
